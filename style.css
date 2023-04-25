@@ -102,6 +102,13 @@ p, h1, h2, h3, h4, h5, h6 {
 .result{
   grid-area: a;
   background-color: hsl(var(--background-result));
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 1rem;
+  overflow: hidden;
+  font-size: 3.7rem;
+  color: white;
 }
 .clear{
   grid-area: b;
@@ -163,6 +170,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 .numbers-op{
   background-color: hsl(var(--background-operation));
+ 
 }
 .numbers-op:hover{
   background-color: hsla(var(--background-operation), 0.7);
